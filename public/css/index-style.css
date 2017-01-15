@@ -1,0 +1,48 @@
+img.user_avatar
+{
+    max-height: 210px;
+    min-height: 50px;
+    max-width: 210px;
+    min-width: 50px;
+    width:auto;
+    border-style: ridge;
+}
+a.button-responsive
+{
+    font-size: 15pt;
+}
+a.logo
+{
+    margin-right: 40px;
+}
+img.img-logo
+{
+    max-width:100px; 
+    margin-top: -11px;
+}
+/*for out user photo*/
+div.user_photo
+{
+    height: 210px;
+    margin-bottom: 5px;
+}
+img.user_avatar
+{
+    max-height: 210px;
+    min-height: 50px;
+    max-width: 210px;
+    min-width: 50px;
+    width:auto;
+    border: 1px solid gray;
+}
+div.border_btm
+{
+    border-bottom:1px solid #e7e8ec;
+}
+/*output photo video and message*/
+div.content_output
+{
+    height:800px;
+    border: 2px solid #e6e6e6;
+    overflow: auto;
+}
