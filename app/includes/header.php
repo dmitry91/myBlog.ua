@@ -39,7 +39,7 @@
             <ul class="nav navbar-nav ">
                 <li><a id="main_pages_btn" href="/index.php" class="button-responsive">Главная</a> </li>
                 <li><a id="message_btn" href="/messages.php" class="button-responsive">Сообшения</a> </li>
-                <li><a id="photo_btn" href="/photo.php" class="button-responsive">Фото</a> </li>
+                <li><a id="photo_btn" href="/images.php" class="button-responsive">Фото</a> </li>
                 <li><a id="videos_btn" href="/videos.php" class="button-responsive">Видео</a> </li>
             </ul>
 

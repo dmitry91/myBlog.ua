@@ -53,13 +53,13 @@ if(!isset($_SESSION["session_email"]))
             <div class="col-lg-5 col-md-6 col-sm-8 col-xs-12">
                 <div id="content" class="content_output">
                     <h4 class="text-center" >Фото</h4>
-                    <form id="photo_form" enctype="multipart/form-data" method="post" action="photo.php">
+                    <form id="photo_form" enctype="multipart/form-data" method="post" action="images.php">
                         <strong>Ваше изображение. Не более 2mb</strong>
                         <input accept="image/jpeg" type="file" name="image" id="image" >
                         <input type="submit" value="Сохранить" name="submit">
                     </form>
                     <br>
-                    <form method="post" action="photo.php">
+                    <form method="post" action="images.php">
                         <?
                         $result= getPhoto($_SESSION['session_user_id']);
                         while($row = mysqli_fetch_assoc($result)): ?>
